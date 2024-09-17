@@ -72,3 +72,28 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    flex-basis: 150px;
+    text-align: center;
+}
+
+.card-square {
+    border: 3px solid rgb(41, 157, 196);
+    height: 160px;
+    border-radius: 10px;
+}
