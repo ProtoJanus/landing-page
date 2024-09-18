@@ -125,3 +125,49 @@ header {
     font-weight: 700;
     font-size: 20px;
 }
+
+.section-four {
+    display: flex;
+    padding: 50px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-card {
+    background-color: #3882F6;
+    padding: 0 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-inner-card {
+    padding: 50px 40px;
+
+    h3 {
+        font-size: 30px;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.right-inner-card {
+    button {
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        background-color: #3882F6;
+        border: 2px solid white;
+        border-radius: 5px;
+        width: 150px;
+        height: 50px;
+    }
+}
